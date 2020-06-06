@@ -1,22 +1,45 @@
 h1 {
-    color: #1D8500;
+    color:  #28E06C;
 }
 
-.p {
-    font-size: em 3;
+#picture1 {
+    float: right;
 }
 
 hr {
-    color: 1D8500;
+    border-color: #049439;
+    border-width: 1px;
+    margin-right: 50%;
 }
 
-table {
-    border-color: #1D8500;
-    border-width: 3px;
+h1 + .header1 {
+    font-weight: bold;
+}
+
+.header1 {
+    text-decoration: underline;
+}
+
+p {
+   width: 45%; 
+}
+
+em {
+    color: #28E06C;
+}
+
+table, tr, td {
+    border-color: #049439;
+    border-width: 2px;
     border-style: solid;
 }
 
+form input {
+    border-color: #28E06C;
+    background-color: #049439;
+}
+
 body {
-    background: #85116F;
+    background: #6C4191;
     font-family: 'Special Elite', cursive;
 }
